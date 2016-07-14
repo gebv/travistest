@@ -38,7 +38,7 @@ deploy:
     skip_cleanup: true
     provider: releases
     file:
-      - "README.md"
+      - "releases/README.md"
       - "releases/file.txt"
     on:
       tags: false
