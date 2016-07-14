@@ -34,6 +34,7 @@ deploy:
       tags: false
       branch: release
   - provider: releases
+    api_key: $GITHUB_TOKEN_KEY
     skip_cleanup: true
     provider: releases
     file:
